@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<title>Drama Site</title>
+<!-- styles -->
+<link rel='stylesheet' href="css/main.css">
+<link rel='stylesheet' href="css/owl.carousel.css">
+<link rel='stylesheet' href="css/owl.theme.default.css">
+<link rel='stylesheet' href="css/materialize.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Prompt|Roboto+Slab|Source+Sans+Pro" rel="stylesheet"> 
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<!--<nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Logo</a>
+     
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+     
+    </div>
+  </nav>-->
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col s12">
+			<img class="left brand-logo center-on-mobile" src="img/PatriotPlayers2.PNG" width="100" height="100">  <!--center on mobile and hide on mobile-->
+			<h1 class="right super-heading hide-on-mobile">JL Mann Patriot Players</h1>
+		</div>
+	</div>
+    <div class="row">
+        <div class="col s12">
+			<nav>
+				<div class="blue nav-wrapper">
+				 
+				  <a href="#" data-activates="side-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+				  <ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="patron_program.html">Patrons</a></li>
+					<li><a href="#.html">Page 3</a></li>
+				  </ul>
+				   <ul class="side-nav" id="side-nav">
+					 <li><a href="index.html">Home</a></li>
+					 <li><a href="patron_program.html">Patrons</a></li>
+					 <li><a href="#.html">Page 3</a></li>
+				   </ul>
+				</div>
+			</nav><!---Needs to be moved to bottom of image on other side. Side is correct but top/bottom is not--->
+		</div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <div id="my-carousel">
+				<img src="http://dummyimage.com/500x250&text=Slide1" height="300" width="150">
+				<img src="http://dummyimage.com/500x250&text=Slide2" height="300" width="150">
+				<img src="http://dummyimage.com/500x250&text=Slide3" height="300" width="150">
+				<img src="http://dummyimage.com/500x250&text=Slide4" height="300" width="150">
+			</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m8 l8">
+            <h2>Welcome To The JLMann Patriot Players Website!<!---Insert info about program and change h2 to a more acceptable everything---></h2>
+        </div>
+        <div class="col s12 m4 l4">
+            <table>
+				<tr>
+					<th class="head">Upcoming Shows!</th>
+				</tr>
+				<tr>
+					<th>Almost, Maine</th>
+				</tr>
+				<tr>
+					<td class="no-padding">November 10, 11, 12</td>
+				</tr>
+				<tr>
+					<td class="no-padding">7:30 in the Auditorium!</td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<th>Hairspray!</th>
+				</tr>
+				<tr>
+					<td class="no-padding">Dates TBA</td>
+				</tr>
+				<tr>
+					<td class="no-padding">Times TBA</td>
+				</tr>
+			</table>
+			
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m6 l6">
+            <p>Auditions for the JLMann Play "Almost, Maine" have been completed and cast list is outside Mr. Spearman's Room!</p>
+        </div>
+        <div class="col s12 m6 l6">
+            <h2>Friends Of The Patriots</h2>
+			<div id="ads">
+				<img src="http://dummyimage.com/500x250&text=Slide1&text=Advertisement1" height="150" width="150">
+				<img src="http://dummyimage.com/500x250&text=Slide1&text=Advertisement2" height="150" width="150">
+				<img src="http://dummyimage.com/500x250&text=Slide1&text=Advertisement3" height="150" width="150">
+				<img src="http://dummyimage.com/500x250&text=Slide1&text=Advertisement4" height="150" width="150">
+				<img src="http://dummyimage.com/500x250&text=Slide1&text=Advertisement5" height="150" width="150">
+				<img src="http://dummyimage.com/500x250&text=Slide1&text=Advertisement6" height="150" width="150">
+			</div>
+        </div>
+    </div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col s12 m12 l12">
+			<p>Copyright Nathan Binkley and Patriot Players of JL Mann Highschool</p>
+		</div>	
+	</div> 
+</div>
+	
+<!-- javascript -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script>
+$('#my-carousel').owlCarousel({
+    loop:true,
+    items:1,
+    autoplayHoverPause:true,
+    autoplay:true,
+    autoplayTimeout:5000
+})
+$('#ads').owlCarousel({
+    loop:true,
+    items:3,
+    autoplayHoverPause:true,
+    autoplay:true,
+    autoplayTimeout:1000
+})
+$(".button-collapse").sideNav();
+</script>
+
+</body>
+</html>

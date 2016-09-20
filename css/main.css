@@ -1,0 +1,124 @@
+body {
+    background-color: lightskyblue;
+}
+
+header{
+
+}
+
+footer{
+    
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+}
+
+footer h2{
+    color: #fff;
+}
+
+h3 {
+
+}
+footer h3 {
+    color:#fff;
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+footer ul {
+    list-style: none;
+    color: #FFFFFF;
+    padding: 0;
+}
+
+li {
+
+}
+
+table {
+    border: none;
+    padding: 0px;
+}
+
+tr {
+    
+}
+
+th {
+	font-size: 16px;
+}
+
+td {
+	text-align: center;
+    font-size: 14px;
+}
+
+img  {
+	max-width:100%;
+}
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+.no-padding {
+	padding: 0px;
+}
+.no-margin {
+	margin: 0px;
+}
+.head {
+	font-size: 18px;
+}
+.bottom-right-side{
+vertical-align: right;
+horizontal-align: bottom;
+}
+h1.super-heading{
+    font-size: 40px;
+}
+}
