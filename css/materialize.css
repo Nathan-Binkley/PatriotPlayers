@@ -2301,7 +2301,7 @@ template {
  * Remove the gray background color from active links in IE 10.
  */
 a {
-  background-color: transparent;
+ text-decoration: underline; background-color: transparent;
 }
 
 /**
@@ -2636,7 +2636,7 @@ ul li {
 
 a {
   color: #039be5;
-  text-decoration: none;
+  text-decoration: underline;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -4290,7 +4290,7 @@ nav .input-field label.active {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 html {
