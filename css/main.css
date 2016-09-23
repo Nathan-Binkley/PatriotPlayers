@@ -91,19 +91,23 @@ img  {
 }
 
 a:link {
-    color: black;
+
 }
 
 a:visited {
-    color: black;
+    
 }
 
 a:hover {
-    color: black;
+    
 }
 
 a:active {
+    
+}
+a.download{
     color: black;
+    text-decoration: underline;
 }
 .no-padding {
 	padding: 0px;
