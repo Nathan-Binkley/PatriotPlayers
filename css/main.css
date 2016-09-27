@@ -1,5 +1,5 @@
 body {
-    background-color: lightskyblue;
+    background-color: #afe0ff;
 }
 
 header{
@@ -125,4 +125,6 @@ horizontal-align: bottom;
 h1.super-heading {
     font-size: 40px;
 }
+iframe {
+	max-width: 100%;
 }
